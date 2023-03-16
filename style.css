@@ -1,3 +1,7 @@
+h1 .text, h2 .text, h3 .text {
+  color: #00b39b;
+}
+
 nav {
   height: 9vh;
 }
@@ -63,6 +67,11 @@ nav .container-fluid .menu ul .nav-link:active, nav .container-fluid .menu ul .n
   nav .container-fluid .menu ul .dropdown-menu {
     font-size: 0.8rem;
   }
+}
+
+.main .row2 {
+  margin: 0;
+  background-color: #e5faf8;
 }
 
 footer {
