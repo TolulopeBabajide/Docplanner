@@ -1,5 +1,10 @@
-h1 .text, h2 .text, h3 .text {
-  color: #00b39b;
+body {
+  padding-top: 4rem;
+}
+@media (max-width: 576px) {
+  body {
+    padding-top: 150px;
+  }
 }
 
 nav {
@@ -69,6 +74,11 @@ nav .container-fluid .menu ul .nav-link:active, nav .container-fluid .menu ul .n
   }
 }
 
+@media (max-width: 576px) {
+  .main .row1 .head img {
+    display: none;
+  }
+}
 .main .row2 {
   margin: 0;
   background-color: #e5faf8;
